@@ -1,6 +1,9 @@
 <!doctype html>
     <html>
         <head>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+            </style>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@500,100&display=swap" rel="stylesheet">
@@ -11,20 +14,40 @@
         <title>tariff calc made by light</title>
 
         <p style="font-family: 'Doto', Helvetica; font-size: 1rem; position: absolute; bottom: 0.25rem; left: 1rem;">built by lightleviathan</p>
-        <div style="font-family: Helvetica; position: absolute; top: 5rem; left: 25%">
-            <p style="font-size: 4rem; left: 20%;">TARIFF CALCULATOR</p>
+        <div style="font-family: 'Lexend', Helvetica; position: absolute; top: 5rem; left: 22rem">
+            <p style="font-size: 4rem; left: 20rem;">TARIFF CALCULATOR</p>
             <p style="font-size: 1rem; margin-left: 10rem;">find out if items will be affordable in january :)</p>
         </div>
 
-        <div>
-            
-            <input type="number" style="background-color: white; color: black; width: 50rem; height: 1.5rem; z-index: 20; position: absolute; left: 20vw; top: 50%; border-radius: 10px;">
-            <p style="font-family: Helvetica; color: white; z-index: 30; position: absolute; left: 19.35vw; top: 49%; border-radius: 10px;">$</p>
+        <div style="left: 15.5rem; top: 23rem; position: absolute;">
+            <input type="number" style=" font-family:'Lexend', Helvetica; background-color: white; color: black; width: 50rem; height: 1.5rem; z-index: 20; position: absolute; border-radius: 10px; margin-left: 0.75vw; margin-top: 1vh; border-style: solid;">
+            <p style="font-family: 'Lexend', Helvetica; color: white; z-index: 30; position: absolute; border-radius: 10px;">$</p>
+            <button style="
+            font-family: 'Lexend', Helvetica; 
+            color: black; 
+            background-color: white; 
+            z-index: 30; 
+            position: absolute; 
+            border-radius: 5px; 
+            margin-top: 1.2vh; 
+            margin-left: 51.5rem;
+            padding: 5px;
+            border-style: solid;
+            "
+            onclick="calculate()">calculate!</button>
         </div>
+        <p style="font-family: Helvetica; font-size: 2rem; left: 30rem; top: 30rem; position: absolute;">cost with tariff applied: $</p>
+        <p style="font-family: Helvetica; font-size: 2rem; left: 52rem; top: 30rem; position: absolute;">____</p>
     </html>
     <style>
         * {
             background-color: #181717;
             color: #ECFFF8;
+
         }
     </style>
+    <script>
+        function calculate(){
+            
+        }
+    </script>
